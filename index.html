@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+
+    <title>AssemblyJS</title>
+</head>
+<body>
+    <main>
+        <section id="code-interface">
+            <div>
+                <h1>Input</h1>
+                <textarea id="input" rows="15" cols="50"></textarea>
+            </div>
+            <div>
+                <h1>Output</h1>
+                <textarea id="output" rows="15" cols="50" readonly></textarea>
+            </div>
+        </section>
+        <section id="btns-interface">
+            <button id="execute">Executar</button>
+            <p id="error"></p>
+        </section>
+    </main>
+
+    <hr>
+
+    <p>MOV: move um valor de um endereço de memória para outro</p>
+    <p>ADD: adiciona dois valores e armazena o resultado em um endereço de memória</p>
+    <p>SUB: subtrai dois valores e armazena o resultado em um endereço de memória</p>
+    <p>MUL: multiplica dois valores e armazena o resultado em um endereço de memória</p>
+    <p>DIV: divide dois valores e armazena o resultado em um endereço de memória</p>
+    <p>JMP: salta para uma posição específica na memória</p>
+    <p>JE: salta para uma posição específica na memória se a última comparação foi igual</p>
+    <p>JNE: salta para uma posição específica na memória se a última comparação foi diferente</p>
+    <p>CMP: compara dois valores e armazena o resultado em uma variável de sinalizador (flag)</p>
+    <br>
+    <p>PC (contador de programa): armazena a posição atual na memória</p>
+    <p>ZF (sinalizador de zero): indica se a última comparação resultou em zero</p></p>
+    <p></p>
+</body>
+</html>
